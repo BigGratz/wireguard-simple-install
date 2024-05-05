@@ -8,6 +8,7 @@ mkdir -p ~/wireguard/config
 
 cat << EOF > ~/wireguard/docker-compose.yml
 ---
+version: "2.1"
 services:
   wireguard:
     image: lscr.io/linuxserver/wireguard
